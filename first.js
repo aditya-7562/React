@@ -23,14 +23,14 @@
 
 // var num = 50;
 
-// function add(){
-//     var sum = num * 10;
-//     console.log(sum);
-//     console.log(num);
-// }
-// add();
-// console.log(num);
-// // console.log(sum);
+function add(){
+    var sum = num * 10;
+    console.log(sum);
+    console.log(num);
+}
+add();
+console.log(num);
+// console.log(sum);
 
 function multiply(){
     var number =50
