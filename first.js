@@ -21,13 +21,26 @@
 
 // console.log("hey there");
 
-var num = 50;
+// var num = 50;
 
-function add(){
-    var sum = num * 10;
-    console.log(sum);
-    console.log(num);
+// function add(){
+//     var sum = num * 10;
+//     console.log(sum);
+//     console.log(num);
+// }
+// add();
+// console.log(num);
+// // console.log(sum);
+
+function multiply(){
+    var number =50
+    console.log(number)
+
+    var number=100
+    console.log(number)
+
+    var square=number*number
+    console.log(square)
 }
-add();
-console.log(num);
-// console.log(sum);
+
+multiply();
