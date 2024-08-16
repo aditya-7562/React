@@ -21,7 +21,7 @@
 
 // console.log("hey there");
 
-// var num = 50;
+var num = 50;
 
 function add(){
     var sum = num * 10;
