@@ -65,9 +65,9 @@
 // }
 // varscope();
 
-function varscope(){
+function varscope() {
     const x = 1;
-    if(true){
+    if (true) {
         const x = 2;
         console.log(x);
     }
