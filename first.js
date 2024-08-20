@@ -65,12 +65,49 @@
 // }
 // varscope();
 
-function varscope() {
-    const x = 1;
-    if (true) {
-        const x = 2;
-        console.log(x);
+// function varscope() {
+//     const x = 1;
+//     if (true) {
+//         const x = 2;
+//         console.log(x);
+//     }
+//     console.log(x);
+// }
+// varscope();
+
+// var m1 = 20;
+// var m2 = 60;
+
+// function add(a, b){
+//     return "the sum of the values are " + (a + b);
+// }
+
+// console.log(add(m1, m2));
+
+// const Car = {
+//     Name: 'Hyundai',
+//     Model: 'Verna'
+// }
+// console.log(Car);
+
+const Car = {
+    Name: 'Hyundai',
+    Model: 'Verna',
+    Mssg1: () => {
+        console.log("My car name is: " + Car.Name);
+    },
+    Mssg2: () => {
+        console.log("My car model is: " + Car.Model);
+    },
+    Start: () => {
+        console.log("My car is starting!");
+    },
+    Stop: () => {
+        console.log("My car is Stoping!");
     }
-    console.log(x);
 }
-varscope();
+// console.log(Car);
+Car.Mssg1();
+Car.Mssg2();
+Car.Start();
+Car.Stop();
