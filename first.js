@@ -112,16 +112,57 @@
 // Car.Start();
 // Car.Stop();
 
-class Teacher{
-    constructor(Name, UID){
-        this.Name  = Name;
-        this.UID = UID;
-    }
+// class Teacher{
+//     constructor(Name, UID){
+//         this.Name  = Name;
+//         this.UID = UID;
+//     }
 
-    display(){
-        console.log(`Hello, my teacher's name is ${this.Name} and his UID is ${this.UID}`)
+//     display(){
+//         console.log(`Hello, my teacher's name is ${this.Name} and his UID is ${this.UID}`)
+//     }
+// }
+
+// let obj1 = new Teacher("Karthick", 20165);
+// obj1.display();
+
+// class Hospital{
+//     constructor(Name, Address){
+//         this.Name = Name;
+//         this.Address = Address;
+//     }
+
+//     list(){
+//         console.log(`Hello, hospital name is ${this.Name} and its address is ${this.Address}`)
+//     }
+// }
+
+// let h1 = new Hospital("UniHospital", "LPU, Punjab");
+// h1.list();
+
+// My favourite movie is movie. He is the actor of the movie.
+
+// class Movie{
+//     constructor(Name, Actor){
+//         this.Name = Name;
+//         this.Actor = Actor;
+//     }
+//     display(){
+//         console.log(`My favourite movie is ${this.Name}. ${this.Actor} is the Actor of the movie.`)
+//     }
+// }
+
+// let m1 = new Movie("Django Unchained", "Leonardo Di Caprio");
+// m1.display();
+
+function movie(movie, actor){
+    return {
+
+        movie: ()=>{
+            console.log(`My favourite movie is ${movie}. ${actor} is the Actor of the movie.`)
+        }
     }
 }
 
-let obj1 = new Teacher("Karthick", 20165);
-obj1.display();
+let m1 = movie("Django Unchained", "Leonardo di Caprio");
+m1.movie();
