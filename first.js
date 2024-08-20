@@ -90,24 +90,38 @@
 // }
 // console.log(Car);
 
-const Car = {
-    Name: 'Hyundai',
-    Model: 'Verna',
-    Mssg1: () => {
-        console.log("My car name is: " + Car.Name);
-    },
-    Mssg2: () => {
-        console.log("My car model is: " + Car.Model);
-    },
-    Start: () => {
-        console.log("My car is starting!");
-    },
-    Stop: () => {
-        console.log("My car is Stoping!");
+// const Car = {
+//     Name: 'Hyundai',
+//     Model: 'Verna',
+//     Mssg1: () => {
+//         console.log("My car name is: " + Car.Name);
+//     },
+//     Mssg2: () => {
+//         console.log("My car model is: " + Car.Model);
+//     },
+//     Start: () => {
+//         console.log("My car is starting!");
+//     },
+//     Stop: () => {
+//         console.log("My car is Stoping!");
+//     }
+// }
+// // console.log(Car);
+// Car.Mssg1();
+// Car.Mssg2();
+// Car.Start();
+// Car.Stop();
+
+class Teacher{
+    constructor(Name, UID){
+        this.Name  = Name;
+        this.UID = UID;
+    }
+
+    display(){
+        console.log(`Hello, my teacher's name is ${this.Name} and his UID is ${this.UID}`)
     }
 }
-// console.log(Car);
-Car.Mssg1();
-Car.Mssg2();
-Car.Start();
-Car.Stop();
+
+let obj1 = new Teacher("Karthick", 20165);
+obj1.display();
