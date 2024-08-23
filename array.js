@@ -7,6 +7,7 @@
 
 // console.log(students.map(students => 'Name: ' + students));
 
+// Slice method
 
 // const item1 = ['idly', 'dosa'];
 // item1.push('sambar');
@@ -15,7 +16,7 @@
 // console.log(item1);
 // console.log(item2);
 
-
+// Spread Operator
 
 // const item1 = ['idly', 'dosa'];
 // item1.push('sambar');
@@ -25,6 +26,12 @@
 // console.log(item2);
 
 
+// Rest Operator
 
+const items = (...i) => {
+    return i;
+}
+
+console.log(items(1,2,3,4,5,6));
 
 
