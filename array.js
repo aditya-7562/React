@@ -28,10 +28,19 @@
 
 // Rest Operator
 
-const items = (...i) => {
-    return i;
-}
+// const items = (...i) => {
+//     return i;
+// }
 
-console.log(items(1,2,3,4,5,6));
+// console.log(items(1,2,3,4,5,6));
 
 
+// Destructring
+
+const market = {stock : 'HDFC'};
+const lpu = market.stock;
+console.log(lpu);
+
+const person = {name: 'Vikas'};
+const {name} = person;
+console.log(name);
