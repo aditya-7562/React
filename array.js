@@ -37,10 +37,33 @@
 
 // Destructring
 
-const market = {stock : 'HDFC'};
-const lpu = market.stock;
-console.log(lpu);
+// const market = {stock : 'HDFC'};
+// const lpu = market.stock;
+// console.log(lpu);
 
-const person = {name: 'Vikas'};
-const {name} = person;
-console.log(name);
+// const person = {name: 'Vikas'};
+// const {name} = person;
+// console.log(name);
+
+// const arr = ['Idly', 'Dosa'];
+// const [item1, item2] = arr;
+// console.log(item1, item2);
+
+
+// function product(a, b){
+//     return a*b;
+// }
+
+// console.log(product(2,6));
+
+// const multiply = function product(a, b){
+//     return a*b;
+// }
+
+// console.log(multiply(3, 4));
+
+const product = (a, b) => {
+    return a*b;
+}
+
+console.log(product(4, 3));
