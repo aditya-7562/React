@@ -164,5 +164,5 @@ function movie(movie, actor){
     }
 }
 
-let m1 = movie("Django Unchained", "Leonardo di Caprio");
+let m1 = new movie("Django Unchained", "Leonardo di Caprio");
 m1.movie();
