@@ -1,18 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import App1 from './aditya';
+// import App from './App';
+// import University from './component/university';
+// import College from './component/college';
+// import Car from './component/car';
+// import Fruit from './component/fruit';
+// import Carlist from './component/carlist';
+import Zoo from './component/zoo';
+// import Bike from './component/bike';
+// import Bus from './component/bus';
+// import App1 from './aditya';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Car /> */}
+    {/* <University /> */}
+    {/* <College /> */}
+    {/* < Fruit /> */}
+    {/* <Carlist /> */}
+    <Zoo />
+    {/* <Bike /> */}
+    {/* <Bus /> */}
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

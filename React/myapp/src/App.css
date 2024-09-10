@@ -14,25 +14,25 @@
 } */
 
 .App-header {
-  background-color: #83868a;
+  background-color: #b2b7bd;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(49, 41, 41);
+  color: rgb(97, 89, 89);
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
-  }
-}
+  } */
+/* } */

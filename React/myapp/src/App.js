@@ -1,15 +1,18 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  // const name = "Fyodor Dostoevsky";
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      {/* <header className="App-header"> */}
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           <h3>"Justice battles with the conscience in a tale of guilt and redemption."</h3>
-          
-        </p>
+          <h4>Author: {name}</h4>
+        </p> */}
         {/* <a
           className="App-link"
           href="https://reactjs.org"
@@ -18,7 +21,7 @@ function App() {
         >
           Learn React
         </a> */}
-      </header>
+      {/* </header> */}
     </div>
   );
 }
