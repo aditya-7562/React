@@ -8,7 +8,9 @@ import './index.css';
 // import Fruit from './component/fruit';
 // import Carlist from './component/carlist';
 // import Header from './component/header';
-import Player from './component/player';
+import State from './component/classState';
+// import State from './component/state1';
+// import Player from './component/player';
 // import Zoo from './component/zoo';
 // import Bike from './component/bike';
 // import Bus from './component/bus';
@@ -25,7 +27,8 @@ root.render(
     {/* < Fruit /> */}
     {/* <Carlist /> */}
     {/* <Zoo /> */}
-    <Player/>
+    {/* <Player/> */}
+    <State/>
     {/* <Header/> */}
     {/* <Bike /> */}
     {/* <Bus /> */}
