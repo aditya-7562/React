@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class State extends Component {
     constructor(){
         super();
-        this.state = {color: "blue"};
+        this.state = {color: "purple"};
     }
   render() {
     return (
