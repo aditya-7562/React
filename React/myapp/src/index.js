@@ -7,7 +7,9 @@ import './index.css';
 // import Car from './component/car';
 // import Fruit from './component/fruit';
 // import Carlist from './component/carlist';
-import Zoo from './component/zoo';
+// import Header from './component/header';
+import Player from './component/player';
+// import Zoo from './component/zoo';
 // import Bike from './component/bike';
 // import Bus from './component/bus';
 // import App1 from './aditya';
@@ -22,7 +24,9 @@ root.render(
     {/* <College /> */}
     {/* < Fruit /> */}
     {/* <Carlist /> */}
-    <Zoo />
+    {/* <Zoo /> */}
+    <Player/>
+    {/* <Header/> */}
     {/* <Bike /> */}
     {/* <Bus /> */}
   </React.StrictMode>
