@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+// import './index.css';
 // import App from './App';
 // import University from './component/university';
 // import College from './component/college';
@@ -8,7 +8,11 @@ import './index.css';
 // import Fruit from './component/fruit';
 // import Carlist from './component/carlist';
 // import Header from './component/header';
-import State from './component/classState';
+// import State from './component/classState';
+// import State from './component/ListState';
+import State from './component/Timer';
+// import State from './component/state2';
+// import Counter from './component/Counter';
 // import State from './component/state1';
 // import Player from './component/player';
 // import Zoo from './component/zoo';
@@ -28,7 +32,9 @@ root.render(
     {/* <Carlist /> */}
     {/* <Zoo /> */}
     {/* <Player/> */}
-    <State/>
+    {/* <State/> */}
+<State/>
+    {/* <Counter/> */}
     {/* <Header/> */}
     {/* <Bike /> */}
     {/* <Bus /> */}
