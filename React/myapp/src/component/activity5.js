@@ -29,13 +29,17 @@ export default function Activity5() {
 
     return (
         <div style={themeStyles}>
+
             <h1>Counter: {count}</h1>
+
             <button onClick={increaseCount}>Increment</button>
             <button onClick={decreaseCount}>Decrement</button>
             <br />
+
             <button onClick={toggleTheme}>
                 Switch to {isDarkTheme ? 'Light' : 'Dark'} Theme
             </button>
+            
         </div>
     );
 }
