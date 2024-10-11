@@ -10,7 +10,8 @@ import './index.css';
 // import Header from './component/header';
 // import State from './component/classState';
 // import State from './component/ListState';
-import State from './component/state8';
+// import State from './component/state8';
+import Context from './component/profile';
 // import State from './component/state2';
 // import Counter from './component/Counter';
 // import State from './component/state1';
@@ -33,7 +34,8 @@ root.render(
     {/* <Zoo /> */}
     {/* <Player/> */}
     {/* <State/> */}
-<State/>
+<Context/>
+{/* <State/> */}
     {/* <Counter/> */}
     {/* <Header/> */}
     {/* <Bike /> */}
