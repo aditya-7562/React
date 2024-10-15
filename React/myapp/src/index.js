@@ -10,7 +10,8 @@ import ReactDOM from 'react-dom/client';
 // import Header from './component/header';
 // import State from './component/classState';
 // import State from './component/ListState';
-import State from './component/customHook';
+import MobileProvider from './component/parentMobile';
+// import State from './component/customHook';
 // import State from './component/reducer';
 // import State from './component/state8';
 // import Context from './component/Q2';
@@ -37,7 +38,8 @@ root.render(
     {/* <Player/> */}
     {/* <State/> */}
 {/* <Context/> */}
-<State/>
+<MobileProvider/>
+{/* <State/> */}
     {/* <Counter/> */}
     {/* <Header/> */}
     {/* <Bike /> */}
