@@ -8,9 +8,9 @@ import ReactDOM from 'react-dom/client';
 // import Fruit from './component/fruit';
 // import Carlist from './component/carlist';
 // import Header from './component/header';
-// import State from './component/classState';
+import State from './component/statefull';
 // import State from './component/ListState';
-import MobileProvider from './component/parentMobile';
+// import MobileProvider from './component/parentMobile';
 // import State from './component/customHook';
 // import State from './component/reducer';
 // import State from './component/state8';
@@ -36,9 +36,9 @@ root.render(
     {/* <Carlist /> */}
     {/* <Zoo /> */}
     {/* <Player/> */}
-    {/* <State/> */}
+    <State/>
 {/* <Context/> */}
-<MobileProvider/>
+{/* <MobileProvider/> */}
 {/* <State/> */}
     {/* <Counter/> */}
     {/* <Header/> */}
