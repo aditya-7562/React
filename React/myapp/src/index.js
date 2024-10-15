@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+// import './index.css';
 // import App from './App';
 // import University from './component/university';
 // import College from './component/college';
@@ -11,7 +11,7 @@ import './index.css';
 // import State from './component/classState';
 // import State from './component/ListState';
 // import State from './component/state8';
-import Context from './component/profile';
+import Context from './component/Q2';
 // import State from './component/state2';
 // import Counter from './component/Counter';
 // import State from './component/state1';
