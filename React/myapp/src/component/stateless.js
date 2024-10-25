@@ -4,7 +4,7 @@ const StatelesComponent = (prop) => {
     return(
         <div>
             <h1>Stateless Component</h1>
-            <p>{props.message}</p>
+            <p>{prop.message}</p>
         </div>
     )
 }
